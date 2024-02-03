@@ -1,0 +1,92 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+*{
+    font-family: 'Inter Tight', sans-serif; 
+}
+
+#hero {
+    background-image: url(images/skyline.jpeg);
+    height: 300px;
+    
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #457B9D;
+    color: white;
+    width: 300px;
+}
+
+.tagline {
+    background: #1D3557;
+    color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#activities-one {
+    background: #A8DADC;
+    padding-top: 5px;
+    
+}
+
+.activities-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #A8DADC
+}
+
+.activities-two img {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#guide {
+    background-color: #F1FAEE;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+#guide h4 {
+    text-decoration: bold;
+}
+
+.nelson {
+    padding: 5px 0;
+}
+
+.nelson img:hover {
+    filter: brightness(75%);
+    transition: .2s;
+}
+.union-station img:hover {
+    filter: brightness(75%);
+    transition: .2s;
+}
+
+.kauffman img:hover {
+    filter: brightness(75%);
+    transition: .2s;
+}
